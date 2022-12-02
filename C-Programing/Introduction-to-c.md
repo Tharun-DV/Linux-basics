@@ -75,6 +75,22 @@ int main(){
     }
 }
 ```
+## Program return Given Number is Even or Not
+
+```c
+#include<stdio.h>
+int main(){
+    int no;
+    printf("Enter Number:");
+    scanf("%d",&no);
+    if(no%2==0){
+        print("Enter Number is Even Number\n");
+    }
+    else {
+        printf("Entered Number is a Odd Number\n");
+    }
+}
+```
 
 ## Program to find Area of Trapizium
 
