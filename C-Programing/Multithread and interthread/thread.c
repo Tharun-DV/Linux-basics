@@ -3,7 +3,7 @@
 #include<pthreads.h>
 
 #define NUM_THREADS 2
-typedef struct_thread_data_t{
+typedef struct _thread_data_t{
     int tid;
     double stuff;
 }thread_data_t;
