@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<pthreads.h>
+#include<pthread.h>
 
 #define NUM_THREADS 2
 typedef struct _thread_data_t{
