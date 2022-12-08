@@ -4,7 +4,7 @@
 #include<sys/wait.h>
 
 int main(){
-    int fd[2];
+    int fd[2],n;
     char buffer[100];
     pid_t p;
     pipe(fd); //creates a unidirectional pipe with two end fd[0] and fd[1]
